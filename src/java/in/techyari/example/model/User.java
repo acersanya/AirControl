@@ -1,6 +1,8 @@
 package in.techyari.example.model;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
 	
 	private int id;
 	private String fullname;
@@ -11,7 +13,17 @@ public class User {
         private String login;
         private String position;
         private int status;
+        private int statusAvaible;
 
+    public int getStatusAvaible() {
+        return statusAvaible;
+    }
+
+    public void setStatusAvaible(int statusAvaible) {
+        this.statusAvaible = statusAvaible;
+    }
+        
+        
     public void setStatus(int status) {
         this.status = status;
     }
@@ -92,7 +104,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" + "id=" + id + ", fullname=" + fullname + ", surname=" + surname + ", password=" + password + ", gender=" + gender + ", birthdate=" + birthdate + ", login=" + login + ", position=" + position + '}';
+        return  "id=" + id + ", Name=" + fullname + ", Surname=" + surname +  ", gender=" + gender + ", birthdate=" + birthdate +  ", position=" + position;
     }
 
 

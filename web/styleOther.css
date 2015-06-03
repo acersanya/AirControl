@@ -25,6 +25,12 @@ table, tr, td{
 }
 
 
+.myform2{
+    margin:0 auto;
+    width:800px;
+    padding:14px;
+}
+
 #mystyle{
     border:solid 2px burlywood;
     background: bisque;

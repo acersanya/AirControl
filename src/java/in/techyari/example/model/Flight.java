@@ -5,11 +5,13 @@
  */
 package in.techyari.example.model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Александр
  */
-public class Flight {
+public class Flight implements Serializable{
     private int id;
 
     public void setId(int id) {

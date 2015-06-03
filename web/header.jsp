@@ -10,13 +10,13 @@
     <center>
         <div id="mystyle" style="border: none;">
             <h1>Aircompany</h1>
-      
+
             <h4> Administation control page </h4>
-                <%=new Date()%></br>  </br>
-                <a href="flightAddNew.jsp">Add New Flight</a> &NegativeThickSpace; |
-                <a href="flightView.jsp">View Flight</a> &NegativeThickSpace;|
-		<a href="LoginController?query=logout">Logout</a>
-       
+            <%=new Date()%></br>  </br>
+            <a href="flightAddNew.jsp">Add New Flight</a> &NegativeThickSpace; |
+            <a href="flightView.jsp">View Flight</a> &NegativeThickSpace;|
+            <a href="LoginController?query=logout">Logout</a>
+
         </div>
     </center>
 </body>
